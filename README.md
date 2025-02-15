@@ -44,3 +44,32 @@ Untuk mempermudah penilaian submission yang dikirim, Anda perlu memahami ketentu
 ```
 
 Selamat mengerjakan dan sukses selalu!
+
+---
+
+## Hasil Pengerjaan
+
+### Live Demo
+
+Aplikasi dapat diakses melalui GitHub Pages:
+[https://ramhaidar.github.io/bookshelf-app-starter-project/](https://ramhaidar.github.io/bookshelf-app-starter-project/)
+
+### Fitur yang Diimplementasikan
+
+-   ✅ Menambahkan buku baru
+-   ✅ Memindahkan buku antar rak
+-   ✅ Menghapus buku dengan konfirmasi
+-   ✅ Mengedit data buku
+-   ✅ Mencari buku berdasarkan judul
+-   ✅ Menyimpan data ke localStorage
+-   ✅ Antarmuka responsif dengan Bootstrap 5.3
+-   ✅ Ikon-ikon Bootstrap untuk UX yang lebih baik
+
+### Teknologi yang Digunakan
+
+-   HTML5
+-   JavaScript (ES6+)
+-   Bootstrap 5.3
+-   Bootstrap Icons
+-   LocalStorage API
+    Selamat mengerjakan dan sukses selalu!
