@@ -1,75 +1,79 @@
-# Bookshelf App Starter Project
+# 📚 Bookshelf App
 
-Ini adalah starter project untuk siswa yang sedang mengerjakan tugas akhir kelas Belajar Membuat Front-End Web untuk Pemula.
+## 📑 Daftar Isi
 
-## Ketentuan Pengerjaan Tugas
+1. [Deskripsi Proyek](#-deskripsi-proyek)
+2. [Kriteria Wajib yang Dipenuhi](#-kriteria-wajib-yang-dipenuhi)
+3. [Fitur yang Diimplementasikan](#-fitur-yang-diimplementasikan)
+4. [Teknologi yang Digunakan](#-teknologi-yang-digunakan)
+5. [Preview Aplikasi](#-preview-aplikasi)
+6. [Cara Menjalankan Aplikasi](#-cara-menjalankan-aplikasi)
 
-Untuk mempermudah penilaian submission yang dikirim, Anda perlu memahami ketentuan-ketentuan berikut dalam mengerjakan tugas ini.
+## 📌 Deskripsi Proyek
 
--   Anda dilarang mengedit atau menghapus atribut `data-testid` pada elemen-elemen HTML.
--   Ini masih berkaitan dengan poin sebelumnya. Jika Anda memiliki kebutuhan seperti styling elemen dan perlu menambahkan atribut seperti class, itu tidak dilarang selama atribut `data-testid` beserta nilainya tidak diubah atau dihapus.
--   Dalam menampilkan data-data buku, Anda wajib memberikan beberapa atribut pada setiap elemennya.
-
-    -   `data-bookid`: menampung nilai ID masing-masing buku.
-    -   `data-testid`: penanda jenis data buku yang ditampilkan. Berikut daftarnya.
-        -   `bookItem`: elemen kontainer yang menampung data-data buku.
-        -   `bookItemTitle`: judul buku
-        -   `bookItemAuthor`: penulis buku
-        -   `bookItemYear`: tahun rilis buku
-        -   `bookItemIsCompleteButton`: tombol untuk mengubah kondisi buku dari “Belum selesai dibaca” menjadi “Selesai dibaca” atau sebaliknya.
-        -   `bookItemDeleteButton`: tombol untuk menghapus buku.
-        -   `bookItemEditButton`: tombol untuk mengubah data buku.
-
-    Agar pengerjaan tugas lebih mudah, Anda dapat mengikuti templat buku berikut.
-
-```html
-<div
-    data-bookid="{{ ID_buku }}"
-    data-testid="bookItem">
-    <h3 data-testid="bookItemTitle">{{ judul_buku }}</h3>
-    <p data-testid="bookItemAuthor">Penulis: {{ penulis_buku }}</p>
-    <p data-testid="bookItemYear">Tahun: {{ tahun_rilis_buku }}</p>
-    <div>
-        <button data-testid="bookItemIsCompleteButton">
-            {{ tombol_untuk_ubah_kondisi }}
-        </button>
-        <button data-testid="bookItemDeleteButton">
-            {{ tombol_untuk_hapus }}
-        </button>
-        <button data-testid="bookItemEditButton">
-            {{ tombol_untuk_edit }}
-        </button>
-    </div>
-</div>
-```
-
-Selamat mengerjakan dan sukses selalu!
+Aplikasi Bookshelf adalah submission untuk kelas Belajar Membuat Front-End Web untuk Pemula di Dicoding. Aplikasi ini memungkinkan pengguna untuk mengelola daftar buku yang ingin dibaca dan yang sudah selesai dibaca.
 
 ---
 
-## Hasil Pengerjaan
+## ✅ Kriteria Wajib yang Dipenuhi
 
-### Live Demo
+1. Mampu Menambahkan Data Buku
+2. Memiliki Dua Rak Buku
+3. Dapat Memindahkan Buku antar Rak
+4. Dapat Menghapus Data Buku
+5. Manfaatkan localStorage untuk Menyimpan Data
+6. Mempertahankan Data Ketika Browser Dimuat Ulang
+
+---
+
+## 🎯 Fitur yang Diimplementasikan
+
+1. **Manajemen Buku**:
+
+    - ✅ Menambahkan buku baru
+    - ✅ Memindahkan buku antar rak
+    - ✅ Menghapus buku dengan konfirmasi
+    - ✅ Mengedit data buku
+
+2. **Pencarian dan Penyimpanan**:
+    - ✅ Mencari buku berdasarkan judul
+    - ✅ Menyimpan data ke localStorage
+3. **Antarmuka Pengguna**:
+    - ✅ UI responsif dengan Bootstrap 5.3
+    - ✅ Ikon-ikon Bootstrap untuk UX yang lebih baik
+    - ✅ Modal konfirmasi untuk penghapusan
+    - ✅ Formulir yang intuitif
+
+---
+
+## 🛠️ Teknologi yang Digunakan
+
+-   **HTML5**: Struktur dasar aplikasi
+-   **JavaScript**: Logika aplikasi dan DOM manipulation
+-   **Bootstrap 5.3**: Framework CSS untuk UI responsif
+-   **Bootstrap Icons**: Ikon-ikon UI
+-   **LocalStorage API**: Penyimpanan data lokal
+
+---
+
+## 📱 Preview Aplikasi
 
 Aplikasi dapat diakses melalui GitHub Pages:
 [https://ramhaidar.github.io/bookshelf-app-starter-project/](https://ramhaidar.github.io/bookshelf-app-starter-project/)
 
-### Fitur yang Diimplementasikan
+---
 
--   ✅ Menambahkan buku baru
--   ✅ Memindahkan buku antar rak
--   ✅ Menghapus buku dengan konfirmasi
--   ✅ Mengedit data buku
--   ✅ Mencari buku berdasarkan judul
--   ✅ Menyimpan data ke localStorage
--   ✅ Antarmuka responsif dengan Bootstrap 5.3
--   ✅ Ikon-ikon Bootstrap untuk UX yang lebih baik
+## 📝 Cara Menjalankan Aplikasi
 
-### Teknologi yang Digunakan
+1. Clone repository ini:
 
--   HTML5
--   JavaScript (ES6+)
--   Bootstrap 5.3
--   Bootstrap Icons
--   LocalStorage API
-    Selamat mengerjakan dan sukses selalu!
+    ```bash
+    git clone https://github.com/ramhaidar/bookshelf-app-starter-project.git
+    ```
+
+2. Buka file `index.html` dengan browser, atau
+3. Gunakan Live Server di Visual Studio Code
+
+---
+
+**Dibuat dengan ❤️ oleh [Haidaruddin Muhammad Ramdhan](https://github.com/ramhaidar)**
